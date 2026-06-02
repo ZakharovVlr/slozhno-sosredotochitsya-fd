@@ -8,7 +8,6 @@
   background-position: center;
   background-attachment: fixed;
   font-family: var(--font-family);
-  padding: 10px;
 }
 
 .header {
@@ -232,11 +231,6 @@
 /*! для планшета !*/
 @media (min-width: 768px) {
 
-  .page {
-    padding: 18px;
-    margin: 0;
-  }
-
   .header {
     min-height: 1024px;
     grid-template-columns: 2fr 1fr 1fr;
@@ -403,17 +397,13 @@
     grid-row: 2 / 3;
     margin: 0;
   }
-   
+
   .content-section__title {
     margin-top: 37px;
   }
 
   .content-section__articles {
     margin-top: 16px;
-  }
-
-  .content-section__articles-second_section {
-
   }
 
   .section__last {
@@ -429,9 +419,9 @@
     margin-bottom: 19px;
   }
 
-    .gallery-section {
-      margin-bottom: 48px;
-    }
+  .gallery-section {
+    margin-bottom: 48px;
+  }
 
   .footer {
     min-height: 768px;
