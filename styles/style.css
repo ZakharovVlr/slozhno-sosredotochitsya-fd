@@ -8,6 +8,7 @@
   background-position: center;
   background-attachment: fixed;
   font-family: var(--font-family);
+  padding: 16px;
 }
 
 .header {
