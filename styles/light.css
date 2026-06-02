@@ -6,6 +6,7 @@
 
 :root.theme-light {
   --bg-color: #FFF1F7;
+  --title-color: #353430;
   --text-color: #353430;
   --accent-color: #FF8DCB;
   --accent-text-color: #353430;

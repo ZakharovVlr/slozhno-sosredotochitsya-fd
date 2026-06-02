@@ -88,7 +88,7 @@
   background: none;
   border: none;
   font-family: var(--font-family);
-  color: var(--accent-color);
+  color: var(--title-color);
   font-size: 18px;
   cursor: pointer;
   padding: 0px 13px;
@@ -96,13 +96,13 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--title-color);
   opacity: 0.4;
 }
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--title-color);
 }
 
 
@@ -110,7 +110,7 @@
 
 .header__theme-menu-button_active {
   pointer-events: none;
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--title-color);
   padding: 0px 12px;
 }
 
@@ -123,7 +123,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   color: var(--heading-color);
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 #FF0070;
   font-weight: 700;
   margin: 0;
 }
@@ -150,7 +150,7 @@
 }
 
 .content-section__title {
-  color: var(--accent-color);
+  color: var(--title-color);
   font-size: 18px;
   margin-top: 26px;
   font-weight: 700;
@@ -227,6 +227,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
   line-height: 83%;
+  text-shadow: 4px 4px 0 #FF0070;
 }
 
 /*! для планшета !*/
@@ -392,7 +393,7 @@
   }
 
   .changes-section_second-section {
-    margin-top: 20px;
+    margin-top: 28px;
   }
 
   .content-section__articles_layout_three-columns {
@@ -410,10 +411,6 @@
 
   .content-section__articles {
     margin-top: 16px;
-  }
-
-  .content-section__articles-second_section {
-
   }
 
   .section__last {
