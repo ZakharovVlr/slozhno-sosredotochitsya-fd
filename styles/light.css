@@ -6,8 +6,10 @@
 
 :root.theme-light {
   --bg-color: #FFF1F7;
-  --title-color: #353430;
   --text-color: #353430;
+  --menu-text-color: #353430;
+  --corner-color: #353430;
+  --section-title-color: #353430;
   --accent-color: #FF8DCB;
   --accent-text-color: #353430;
   --heading-color: #FFC2E6;
@@ -17,11 +19,14 @@
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #FFF1F7;
-    --text-color: #353430;
-    --accent-color: #FF8DCB;
-    --accent-text-color: #353430;
-    --heading-color: #FFC2E6;
-    --bg-image: url(../images/cover-image-light.png);
+      --text-color: #353430;
+      --menu-text-color: #353430;
+      --corner-color: #353430;
+      --section-title-color: #353430;
+      --accent-color: #FF8DCB;
+      --accent-text-color: #353430;
+      --heading-color: #FFC2E6;
+      --bg-image: url(../images/cover-image-light.png);
   }
 }
 

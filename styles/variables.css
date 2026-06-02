@@ -5,8 +5,10 @@
 :root {
   --font-family: 'IBM Plex mono', monospace;
   --bg-color: #000028;
-  --title-color: #FF0070;
   --text-color: #F1B2CE;
+  --menu-text-color: #FF0070;
+  --corner-color: #FF0070;
+  --section-title-color: #FF0070;
   --accent-color: #FF0070;
   --accent-text-color: #000028;
   --heading-color: #DB00FF;

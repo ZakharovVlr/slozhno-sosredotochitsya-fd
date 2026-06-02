@@ -30,8 +30,8 @@
   right: 1px;
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--corner-color);
+  border-right: 1px solid var(--corner-color);
 }
 
 .decorated-zone::after {
@@ -42,8 +42,8 @@
   left: 4px;
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--corner-color);
+  border-left: 1px solid var(--corner-color);
 }
 
 .header__rec {
@@ -88,7 +88,7 @@
   background: none;
   border: none;
   font-family: var(--font-family);
-  color: var(--title-color);
+  color: var(--menu-text-color);
   font-size: 18px;
   cursor: pointer;
   padding: 0px 13px;
@@ -96,13 +96,13 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--title-color);
+  border: 1px solid var(--menu-text-color);
   opacity: 0.4;
 }
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--title-color);
+  border-bottom: 1px solid var(--menu-text-color);
 }
 
 
@@ -110,7 +110,7 @@
 
 .header__theme-menu-button_active {
   pointer-events: none;
-  border: 1px solid var(--title-color);
+  border: 1px solid var(--menu-text-color);
   padding: 0px 12px;
 }
 
@@ -123,7 +123,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   color: var(--heading-color);
-  text-shadow: 4px 4px 0 #FF0070;
+  text-shadow: 4px 4px 0 var(--accent-color);
   font-weight: 700;
   margin: 0;
 }
@@ -150,7 +150,7 @@
 }
 
 .content-section__title {
-  color: var(--title-color);
+  color: var(--section-title-color);
   font-size: 18px;
   margin-top: 26px;
   font-weight: 700;
@@ -227,7 +227,6 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
   line-height: 83%;
-  text-shadow: 4px 4px 0 #FF0070;
 }
 
 /*! для планшета !*/
@@ -393,7 +392,7 @@
   }
 
   .changes-section_second-section {
-    margin-top: 28px;
+    margin-top: 20px;
   }
 
   .content-section__articles_layout_three-columns {
@@ -411,6 +410,10 @@
 
   .content-section__articles {
     margin-top: 16px;
+  }
+
+  .content-section__articles-second_section {
+
   }
 
   .section__last {
