@@ -1,5 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   /* сохраните в разметке и стилях класс page у тега body. 
   Он удобен, чтобы составлять селекторы для разных цветовых тем. */
@@ -9,16 +8,17 @@
   background-position: center;
   background-attachment: fixed;
   font-family: var(--font-family);
+  padding: 10px;
 }
 
 .header {
   min-height: 668px;
   height: 100vh;
-  padding: 2px;
+  padding: 0px;
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr min-content 1fr;
 }
 
 
@@ -133,7 +133,7 @@
   grid-row: 3;
   font-size: 18px;
   justify-self: start;
-  align-self: self-start;
+  align-self: center;
 }
 
 .title-decor {
@@ -157,7 +157,7 @@
 }
 
 .article__title {
-  margin: 0;
+  margin-top: 20px;
 }
 
 .last_article__title {
@@ -169,7 +169,16 @@
   color: var(--text-color);
   font-size: 18px;
   font-weight: 400;
+  margin-top: 8px;
   margin-bottom: 10px;
+}
+
+.title__second-section {
+  margin-top: 33px;
+}
+
+.title__third-section {
+  margin-top: 32px;
 }
 
 .gallery-section__title {
@@ -183,11 +192,15 @@
   margin-bottom: 20px;
 }
 
+.gallery-section {
+  margin-bottom: 48px;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
-  margin-top: 10px;
+  margin-top: 13px;
   margin-bottom: 10px;
   padding: 0px;
 }
@@ -274,7 +287,6 @@
     grid-row: 1;
     grid-column: 1;
     margin-top: 61px;
-    /*! ghj,etv !*/
   }
 
   .content-section__articles_layout_three-columns {
@@ -363,6 +375,10 @@
     font-size: clamp(7.25rem, 5.77rem + 6.32vw, 9.8125rem);
   }
 
+  .header__text {
+    margin-top: 10px;
+  }
+
   .header__theme-menu {
     grid-column: 1 / -1;
     justify-self: center;
@@ -375,6 +391,10 @@
     gap: 12px;
   }
 
+  .changes-section_second-section {
+    margin-top: 20px;
+  }
+
   .content-section__articles_layout_three-columns {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -382,6 +402,18 @@
     grid-column: 1 / 4;
     grid-row: 2 / 3;
     margin: 0;
+  }
+   
+  .content-section__title {
+    margin-top: 37px;
+  }
+
+  .content-section__articles {
+    margin-top: 16px;
+  }
+
+  .content-section__articles-second_section {
+
   }
 
   .section__last {
@@ -393,9 +425,13 @@
   }
 
   .gallery-section__title {
-    margin-top: 86px;
+    margin-top: 50px;
     margin-bottom: 19px;
   }
+
+    .gallery-section {
+      margin-bottom: 48px;
+    }
 
   .footer {
     min-height: 768px;
