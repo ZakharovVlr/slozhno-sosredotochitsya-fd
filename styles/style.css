@@ -295,7 +295,7 @@
   .changes-section_second-section {
     grid-template-columns: min-content 2fr;
     grid-template-rows: min-content 2fr;
-    margin-top: 25px;
+    margin-top: 13px;
   }
 
   .title__second-section {
@@ -330,7 +330,7 @@
   }
 
   .gallery-section__title {
-    margin-top: 72px;
+    margin-top: 94px;
     margin-bottom: 20px;
   }
 
