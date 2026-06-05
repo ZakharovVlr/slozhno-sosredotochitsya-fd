@@ -228,21 +228,20 @@
 /*! для планшета !*/
 @media (min-width: 768px) {
 
-  .header {
+.header {
     min-height: 1024px;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 20px 2fr 1fr 1fr 20px; /*! чтобы заголовок встал по макету иначе мешает padding у header !*/
     grid-template-rows: 1fr min-content 1fr;
-    padding: 20px;
+    padding: 20px 0;
   }
 
   .header__title {
-    grid-column: 1/4;
+    grid-column: 1 / 5;
     align-self: start;
-    /* прижимаем к началу своей строки */
   }
 
   .header__text {
-    grid-column: 2/4;
+    grid-column: 3/5;
     justify-self: center;
     align-self: center;
     padding-right: 42px;
@@ -254,7 +253,7 @@
   }
 
   .header__theme-menu {
-    grid-column: 3;
+    grid-column: 4;
   }
 
   .decorated-zone::before {
@@ -289,6 +288,7 @@
   .changes-section_second-section {
     grid-template-columns: min-content 2fr;
     grid-template-rows: min-content 2fr;
+    margin-top: 25px;
   }
 
   .title__second-section {
@@ -383,7 +383,9 @@
   }
 
   .header__text {
-    margin-top: 10px;
+    margin-top: 28px;
+    align-self: start;
+    padding: 0;
   }
 
   .header__theme-menu {
@@ -405,7 +407,7 @@
   .changes-section_second-section {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: min-content 2fr;
-    margin-top: 27px;
+    margin-top: 44px;
   }
 
   .content-section__articles_layout_three-columns {
