@@ -45,6 +45,7 @@
 }
 
 .header__rec {
+  text-transform: uppercase;
   position: absolute;
   top: 10px;
   right: 39px;
@@ -57,11 +58,10 @@
 .header__rec::after {
   content: '';
   position: absolute;
-  left: 32px;
+  left: 42px;
   top: 8px;
   width: 9px;
   height: 9px;
-  margin-left: 10px;
   border-radius: 50%;
   /* или 50%, если нужен круг */
   background-color: var(--accent-color);
@@ -93,7 +93,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--menu-text-color);
+  border: 1px solid rgba(var(--menu-text-color-rgb), 0.4);
   opacity: 0.4;
 }
 
@@ -101,9 +101,6 @@
   outline: none;
   border-bottom: 1px solid var(--menu-text-color);
 }
-
-
-
 
 .header__theme-menu-button_active {
   pointer-events: none;
@@ -160,7 +157,7 @@
   margin-top: 20px;
 }
 
-.last_article__title {
+.goldfish_article__title {
   font-weight: 400;
   font-size: 18px;
 }
@@ -172,11 +169,12 @@
   margin-top: 8px;
   margin-bottom: 10px;
 }
-.changes-section_second-section {
+
+.changes-section_concentration-section {
   margin-top: 17px;
 }
 
-.title__second-section {
+.title__concentration-section {
   margin-top: 33px;
 }
 
@@ -289,6 +287,7 @@
 
   .shadow-text {
     display: inline-block;
+    text-decoration: none;
     text-shadow: 1px 3px 0px #FF0055;
   }
 
@@ -296,13 +295,13 @@
     margin-top: 16px;
   }
 
-  .changes-section_second-section {
+  .changes-section_concentration-section {
     grid-template-columns: min-content 2fr;
     grid-template-rows: min-content 2fr;
     margin-top: 13px;
   }
 
-  .title__second-section {
+  .title__concentration-section {
     grid-row: 1;
     grid-column: 1;
     margin-top: 66px;
@@ -318,7 +317,7 @@
     margin-top: 66px;
   }
 
-  .fishfive_advices__article-title {
+  .fish_advices__article-title {
     margin-top: 50px;
   }
 
@@ -338,39 +337,30 @@
     margin-bottom: 20px;
   }
 
-  .gallery__image_zakat {
-    grid-area: zakat;
+  .gallery__image {
     object-fit: cover;
     width: 100%;
     height: 100%;
+  }
+
+  .gallery__image_zakat {
+    grid-area: zakat;
   }
 
   .gallery__image_bear {
     grid-area: bear;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
   }
 
   .gallery__image_audiocaset {
     grid-area: caset;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
   }
 
   .gallery__image_cup {
     grid-area: cup;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
   }
 
   .gallery__image_anime-street {
     grid-area: street;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
   }
 
   .footer {
@@ -386,7 +376,6 @@
 @media (min-width: 1024px) {
   .header {
     min-height: 768px;
-    grid-template-rows: 300px 1fr 1fr;
   }
 
   .header__title {
@@ -415,7 +404,7 @@
     gap: 7px;
   }
 
-  .changes-section_second-section {
+  .changes-section_concentration-section {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: min-content 2fr;
     margin-top: 44px;
@@ -438,11 +427,11 @@
     margin-top: 16px;
   }
 
-  .section__last {
+  .section__goldfish {
     margin-top: 30px;
   }
 
-  .fishfive_advices__article-title {
+  .fish_advices__article-title {
     margin-top: 20px;
   }
 
