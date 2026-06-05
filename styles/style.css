@@ -128,7 +128,7 @@
   grid-row: 3;
   font-size: 18px;
   line-height: 130%;
-  justify-self: ;
+  padding-right: 40px;
   align-self: center;
 }
 
@@ -172,19 +172,23 @@
   margin-top: 8px;
   margin-bottom: 10px;
 }
+.changes-section_second-section {
+  margin-top: 10px;
+}
 
 .title__second-section {
   margin-top: 33px;
 }
 
-.title__third-section {
-  margin-top: 32px;
+.title__fishbox-section {
+  margin-top: 47px;
 }
+
 
 .gallery-section__title {
   font-weight: 700;
   font-size: 18px;
-  margin-top: 36px;
+  margin-top: 46px;
   margin-bottom: 0;
 }
 
@@ -330,7 +334,7 @@
   }
 
   .gallery-section__title {
-    margin-top: 94px;
+    margin-top: 99px;
     margin-bottom: 20px;
   }
 
