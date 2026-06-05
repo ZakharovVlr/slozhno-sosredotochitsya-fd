@@ -6,7 +6,6 @@
 :root.theme-dark {
   --font-family: 'IBM Plex mono', monospace;
   --bg-color: #000028;
-  
   --menu-text-color: #FF0070;
   --corner-color: #FF0070;
   --section-title-color: #FF0070;
@@ -14,4 +13,8 @@
   --accent-text-color: #000028;
   --heading-color: #DB00FF;
   --bg-image: url(../images/cover-image-dark.png);
+}
+
+:root.theme-dark .header__rec {
+  display: block;
 }
