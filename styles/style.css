@@ -181,7 +181,6 @@
 }
 
 .shadow-text:focus {
-  outline: none;
   outline: 1px solid var(--border-shadow-color);
   outline-offset: 1px;
   text-decoration: none;
