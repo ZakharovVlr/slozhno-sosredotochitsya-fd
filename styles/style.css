@@ -129,7 +129,7 @@
 }
 
 .main {
-  padding: 10px;
+  padding: 8px;
 }
 
 .title-decor {
@@ -154,6 +154,14 @@
 
 .article__title {
   margin-top: 20px;
+}
+
+.article {
+  margin-top: 21px;
+}
+
+.fish_advices__article-title {
+  margin-top: 17px;
 }
 
 .shadow-text {
@@ -196,34 +204,35 @@
 }
 
 .changes-section_concentration-section {
-  margin-top: 17px;
+  margin-top: 21px;
 }
 
 .title__concentration-section {
-  margin-top: 33px;
+  margin-top: 24px;
 }
 
 .title__fishbox-section {
-  margin-top: 54px;
+  margin-top: 44px;
 }
 
 .gallery-section__title {
   font-weight: 700;
   font-size: 18px;
-  margin-top: 63px;
+  margin-top: 50px;
   margin-bottom: 0;
 }
 
 .gallery-section {
-  margin-bottom: 48px;
+  margin-bottom: 29px;
+  padding: 3px;
 }
 
 .gallery {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
-  margin-top: 13px;
-  margin-bottom: 10px;
+  gap: 12px;
+  margin-top: 11px;
+  margin-bottom: 0px;
   padding: 0px;
 }
 
