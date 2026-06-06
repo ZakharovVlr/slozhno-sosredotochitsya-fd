@@ -8,6 +8,7 @@
   --accent-text-color: #353430;
   --heading-color: #FFC2E6;
   --shadow-color: #FF8DCB;
+  --border-shadow-color: #F1B2CE;
   --bg-image: url(../images/cover-image-light.png);
 }
 
@@ -22,6 +23,7 @@
     --accent-text-color: #353430;
     --heading-color: #FFC2E6;
     --shadow-color: #FF8DCB;
+    --border-shadow-color: #F1B2CE;
     --bg-image: url(../images/cover-image-light.png);
   }
 
