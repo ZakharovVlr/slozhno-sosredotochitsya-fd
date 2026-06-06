@@ -160,6 +160,10 @@
   margin-top: 21px;
 }
 
+.changes-article__title {
+  margin-top: 0;
+}
+
 .fish_advices__article-title {
   margin-top: 17px;
 }
@@ -319,7 +323,7 @@
   }
 
   .content-section__articles {
-    margin-top: 16px;
+    margin-top: 18px;
   }
 
   .changes-section_concentration-section {
@@ -331,7 +335,7 @@
   .title__concentration-section {
     grid-row: 1;
     grid-column: 1;
-    margin-top: 66px;
+    margin-top: 61px;
   }
 
   .content-section__articles_layout_changes-columns {
@@ -341,14 +345,19 @@
   }
 
   .title__fishbox-section {
-    margin-top: 66px;
+    margin-top: 74px;
   }
 
   .fish_advices__article-title {
-    margin-top: 50px;
+    margin-top: 56px;
   }
 
   /* Галерея */
+  .gallery-section {
+    margin-bottom: 41px;
+    padding: 0px;
+  }
+
   .gallery {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto auto;
@@ -360,8 +369,8 @@
   }
 
   .gallery-section__title {
-    margin-top: 99px;
-    margin-bottom: 20px;
+    margin-top: 82px;
+    margin-bottom: 21px;
   }
 
   .gallery__image {
