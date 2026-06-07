@@ -83,7 +83,7 @@
 
 .header__theme-menu-button {
   background: none;
-  border: none;
+  border: 1px solid transparent;
   font-family: var(--font-family);
   color: var(--menu-text-color);
   font-size: 18px;
@@ -93,7 +93,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgba(var(--menu-text-color), 0.4);
+  border: 1px solid color-mix(var(--menu-text-color) 40%, transparent);
 }
 
 .header__theme-menu-button:focus-visible {
@@ -176,14 +176,18 @@
 }
 
 .shadow-text:hover {
-  text-decoration: none !important;
-  border-bottom: 1px solid var(--border-shadow-color) !important;
+  text-decoration: none;
+  border-bottom: 1px solid var(--border-shadow-color);
 }
 
 .shadow-text:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.shadow-text:focus-visible {
   outline: 1px solid var(--border-shadow-color);
   outline-offset: 1px;
-  text-decoration: none;
 }
 
 .goldfish_article__title {
